@@ -1,77 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact Book</title>
+  <title>Time Table</title>
   <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <ul class="navigation">
-    <li><strong><em>Contact Book</em></strong></li>
-    <li class="active">My Contact List</li>
-    <li>My Profile</li>
-    <li>Log Out</li>
-  </ul>
-
-  <div class="search">Search the table</div>
-
   <table>
 		<thead>
 			<tr>
-				<th scope="col">ID</th>
-				<th scope="col">NAME</th>
-				<th scope="col">EMAIL</th>
-				<th scope="col">MOBILE PHONE</th>
-				<th scope="col">ADDRESS</th>
+				<th scope="col">PERIOD</th>
+				<th scope="col">M</th>
+				<th scope="col">T</th>
+				<th scope="col">W</th>
+				<th scope="col">T</th>
+				<th scope="col">F</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">01</th>
-				<td>Adrian Perry</td>
-				<td>adrian.perry@example.com</td>
-				<td>(019)-128-4399</td>
-				<td>3667 Eason Rd</td>
+				<th scope="row">1st</th>
+				<td>Math</td>
+				<td>Social Studies</td>
+				<td>Math</td>
+				<td rowspan="2">Physical Education</td>
+				<td rowspan="2">Arts</td>
+				
 			</tr>
 			<tr>
-				<th scope="row">02</th>
-				<td>Lily Vargas</td>
-				<td>lily.vargas@example.com</td>
-				<td>(232)-460-4117</td>
-				<td>8861 Fairview St</td>
+				<th style="strong" scope="row">2nd</th>
+				<td>English</td>
+				<td>English</td>
+				<td>Social Studies</td>
+				
 			</tr>
 			<tr>
-				<th scope="row">03</th>
-				<td>Deann Payne</td>
-				<td>deann.payne@example.com</td>
-				<td>(192)-230-1882</td>
-				<td rowspan="2"></td>
+				<td bgcolor="yellow" scope="row" colspan="6">Lunch</td>
 			</tr>
 			<tr>
-				<th scope="row">04</th>
-				<td>Ralph Marshall</td>
-				<td>ralph.marshall@example.com</td>
-				<td>(187)-322-3929</td>
+				<th scope="row">3rd</th>
+				<td>Science</td>
+				<td>Computer Programming</td>
+				<td>Science</td>
+				<td>Computer Programming</td>
+				<td>Study Hall</td>
 			</tr>
-			<tr>
-				<th scope="row" rowspan="2">05</th>
-				<td rowspan="2">Luke Soto</td>
-				<td>luke.soto@example.com</td>
-				<td>(086)-993-0762</td>
-				<td>1263 Washington Ave</td>
-			</tr>
-			<tr>
-				<td>lkst@example.com</td>
-				<td>(715)-659-9320</td>
-				<td>77 Cambridge St</td>
-			</tr>
+			
 		</tbody>
 		<tfoot>
-			<tr>
-				<th scope="row" colspan="4">Total Contacts</th>
-				<td>5</td>
-			</tr>
+			
 		</tfoot>
   </table>
 
